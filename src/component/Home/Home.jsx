@@ -3,46 +3,30 @@ import { Link } from "react-router-dom";
 export default function Home() {
     return (
         <div className="mx-auto w-full max-w-7xl">
-            <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
-                <div className="relative z-10 max-w-screen-xl px-4  pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
-                    <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
+            <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-8">
+                <div className="relative z-10 max-w-screen-xl px-4  pb-20 pt-4 sm:py-8 mx-auto sm:px-6 lg:px-8">
+                    <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-left sm:ml-auto">
                         <h2 className="text-4xl font-bold sm:text-5xl">
-                          MY SELF DEEPAK PAL
-                            {/* <span className="hidden sm:block text-4xl">CURRENTLY PERSUEING B.TECH IN COMPUTER SCIENCE AND ENGINEERONG</span> */}
+                        A Journey with Mr. Arun
                         </h2>
-                        <h1 className="text-1xl font-semibold"> CURRENTLY PERSUEING B.TECH IN COMPUTER SCIENCE AND ENGINEERING</h1>
-                         
-                        {/* <Link
-                            className="inline-flex text-white items-center px-6 py-3 font-medium bg-orange-700 rounded-lg hover:opacity-75"
-                            to="/"
-                        >
-                            <svg
-                                fill="white"
-                                width="24"
-                                height="24"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fillRule="evenodd"
-                                clipRule="evenodd"
-                            >
-                                <path d="M1.571 23.664l10.531-10.501 3.712 3.701-12.519 6.941c-.476.264-1.059.26-1.532-.011l-.192-.13zm9.469-11.56l-10.04 10.011v-20.022l10.04 10.011zm6.274-4.137l4.905 2.719c.482.268.781.77.781 1.314s-.299 1.046-.781 1.314l-5.039 2.793-4.015-4.003 4.149-4.137zm-15.854-7.534c.09-.087.191-.163.303-.227.473-.271 1.056-.275 1.532-.011l12.653 7.015-3.846 3.835-10.642-10.612z" />
-                            </svg>
-                            &nbsp; Download now
-                        </Link> */}
+                        <h1 className="text-1xl font-semibold">I am journalistic luminary, has spent decades on the frontline, unraveling stories that echo through the corridors of truth.
+                        A maestro in investigative reporting,  My pen has danced across pages, revealing narratives that transcend the ordinary
+                        With an unwavering commitment to journalistic integrity, I has carved a legacy, blending curiosity with a profound sense of responsibility.
+                        In the world of newsprint,I stands tall, his bylines a testament to a career dedicated to unearthing the stories that matter.
+                        As a seasoned journalist, I keen insight and storytelling prowess have painted vivid portraits of societal shifts and cultural nuances.
+                        Through the lens of I reporting, the ordinary becomes extraordinary, and the silence of untold stories finds its voice
+                        A wordsmith of the highest order, I narratives have the power to captivate minds, weaving a tapestry of facts and emotions
+                        In the ever-evolving landscape of journalism, I foresight and adaptability have made him a beacon, guiding the profession into new horizons
+                        </h1>
                     </div>
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    {/* <img className="w-96" src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="image1" /> */}
-                    <img  className="rounded full" src="public/githubprofilephoto.jpg" alt=""  width="400px" height="400px" />
+                    <img className="w-96 rounded-full" src="https://cdn.gencraft.com/prod/user/f7de6e81-e551-4fcc-9954-468b05390169/07958bc4-37b0-4a85-a6a9-18168b0398a1/image/image1_0.jpg?Expires=1710601477&Signature=J7rGelUyQqhPnIiOk9FJUCkehztAITSPoOwHrWhdBktIleB~dxngxAcZvqjxs0oDlAPoT6afkOyvhe1fQ5yhJz~CKbBdDvlCy0cogPYy4qPklUUlV1DAZuZSGMP9Ka74XIeU2RfB8L2PhS3O1SPoF-DWVEpYGDS~vmCGT8S12q13q5ri2TXkgvb8OBBooLrGTnrSXnYTyWFqFxKUVEWze1hDPFENZfeW8vcdhHJjcOTAC~uvCGt1J8RQR5fEUZj2NaESnKj64a5ixfnpaq5mVlvG84PxY3KesBvJmIhiXq~GwbGbHuF2RaCOXZ8O-NC-pftEbsYDsvOuFtHO3ERznA__&Key-Pair-Id=K3RDDB1TZ8BHT8" alt="image1" />
+                    <h1 className="font-bold text-orange-600 ml-28 p-4">Mr Arun singh</h1>
                     
                 </div>
             </aside>
-
-            {/* <div className="grid  place-items-center sm:mt-20">
-                <img className="sm:w-96 w-48" src="https://i.ibb.co/2M7rtLk/Remote1.png" alt="image2" />
-            </div> */}
-
-            {/* <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1> */}
         </div>
     );
 }
